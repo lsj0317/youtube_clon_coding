@@ -1,7 +1,8 @@
 # youtube_clon_coding
 
 ## HTML과 CSS, 간단한  javascript로 만든 유투브 클론코딩 페이지입니다
-## CSS사용시 root라는 변수를 만들어 색상을 저장해 사용하였습니다
+
+### CSS사용시 root라는 변수를 만들어 색상, 크기, 폰트크기를 저장해 사용하였습니다
 
 ### CSS코드
 ![image](https://user-images.githubusercontent.com/90132197/164394464-6e06c1ce-5a7e-4732-becc-6e534da26a5b.png)
@@ -17,4 +18,4 @@
 ![image](https://user-images.githubusercontent.com/90132197/164394358-2dc8a214-59ec-4043-a9f9-138046307178.png)
 
 ### 실행장면
-
+![youtube_cloncoding-1](https://user-images.githubusercontent.com/90132197/164408779-b057db13-adbd-4c6a-a498-626e5d5c8e22.gif)
