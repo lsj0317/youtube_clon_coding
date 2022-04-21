@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Youtube Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+    <!-- video plyer -->
+    <section class="player">
+        <video controls src="/video/Seoul - 21985.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+        <!-- video Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#SeojunCoding</li>
+                    <li>#SeojunCoders</li>
+                    <li>#Seojun</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        Clone Coding : Youtube Mobile Website 유투브 모바일 웹사이트 따라만들기 | 프론트엔드 개발자 입문편 : HTML, CSS, Javascript
+                        Seojun과 함께하는 프론트엔드 실전 입문편
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+            <!-- Aections -->
+            <div class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+                </li>
+                <li><button><i class="fas fa-share"></i><span></span>Share</button>
+                </li>
+                <li><button><i class="fas fa-plus"></i><span></span>save</button>
+                </li>
+                <li><button><i class="fas fa-flag"></i><span>Report</span></button>
+                </li>
+            </div>
+            <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="/image/avatar.png" alt="">
+                    <div class="info">
+                        <span class="name">서준코딩 by 서준</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        <!-- UpNext -->
+        <section class="UpNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="/image/road.jpg" alt="winter_road"></div>
+                    <div class="info">
+                        <span class="title">국내 겨울여행지 10선! 떠나볼까요? 👌 | #여행 #관광 #겨울</span>
+                        <span class="name">seo jun Lee</span>
+                        <span class="views">10K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="/image/kitchen.jpg" alt="kitchen"></div>
+                    <div class="info">
+                        <span class="title">자취생을 위한 주방 가성비 제품 BEST5! 👍 | #주방 #가성비 #자취생</span>
+                        <span class="name">seo jun Lee</span>
+                        <span class="views">12.5K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="/image/BEE.jpg" alt="BEE"></div>
+                    <div class="info">
+                        <span class="title">꿀벌에관한 신기한 사실들! 👀 | #꿀벌 #과학 #지식</span>
+                        <span class="name">과학이야기</span>
+                        <span class="views">8.5K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
